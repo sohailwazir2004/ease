@@ -1,5 +1,5 @@
 // One small function per thing the server can do.
-// They mirror the table in eventease-server/README.md.
+// They mirror the table in server/README.md.
 import { request } from './client.js'
 
 export const listEvents = () => request('GET', '/events')
